@@ -1,0 +1,32 @@
+.main-container {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100% , 0% 75% );
+    opacity: 0.5;
+}
+
+body {
+    background-color: #333333;
+}
+
+.text-container h1 {
+    font-size: 120px;
+    text-align: center;
+    color: white;
+
+    background: -webkit-linear-gradient(135deg, blue 50%, white 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-container p {
+    color: #357ba8;
+    text-align: justify;
+}
+
+.exception {
+    color: white;
+}
